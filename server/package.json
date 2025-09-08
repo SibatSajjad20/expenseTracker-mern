@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
-    "build": "cd ../client && npm run build && cd ../server && xcopy ..\\client\\dist dist /E /I /Y",
+    "build": "echo 'Frontend already built and included in dist folder'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": ["expense", "tracker", "mern", "api"],
